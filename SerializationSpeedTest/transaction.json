@@ -1,0 +1,451 @@
+{
+	"CreatedAt": "2020-05-25T13:56:45.805Z",
+	"UpdatedAt": "2020-05-25T13:56:45.805Z",
+	"CreatedByUserId": null,
+	"UpdatedByUserId": null,
+	"Version": null,
+	"IsDeleted": true,
+	"UtcOffsetInHours": 2,
+	"CustomerId": "5908764a8e382107d44e8e25",
+	"TerminalId": "5e33ee916ec6671fe99ad5ca",
+	"CurrencyId": "5901b6c053248477e8f24b30",
+	"StartMethod": "ByVideoEnded",
+	"ChangeMode": "ExactPayment",
+	"CustomerDemographic": {
+		"AgeRange": null,
+		"Gender": "Unknown",
+		"DemographicProfileId": "593f961f62428c38ecc3e0b0",
+		"DetectedAt": null
+	},
+	"StartedAt": "2020-05-25T13:56:45.805Z",
+	"EndedAt": null,
+	"TransactionState": "Started",
+	"LastPlayedVideoProductId": null,
+	"TerminalConfigurationInternalCode": "af2daa07-d4cc-41ae-bb18-441577674b85",
+	"PriceListInternalCode": "d2a38c7a-2ace-4b3e-98a4-152421bc2824",
+	"SalesAppConfigurationInternalCode": "111e0a2e-1fff-4ace-9e69-c29849f44b90",
+	"OfferedProducts": [
+		{
+			"Key": "10",
+			"ProductId": "59478249e5214f6fd02c32b2",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "11",
+			"ProductId": "5947ad48e5214f6fd02c32c2",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "12",
+			"ProductId": "5946bb76e5214f6fd02c32a7",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 3,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "13",
+			"ProductId": "5946ba0ce5214f6fd02c32a1",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 4,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "14",
+			"ProductId": "5946ba7de5214f6fd02c32a3",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "15",
+			"ProductId": "5947b0f6e5214f6fd02c32ca",
+			"GridCoordinates": {
+				"Row": 1,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "20",
+			"ProductId": "5947ac22e5214f6fd02c32c0",
+			"GridCoordinates": {
+				"Row": 2,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "21",
+			"ProductId": "5947b323e5214f6fd02c32d0",
+			"GridCoordinates": {
+				"Row": 2,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "22",
+			"ProductId": "5947b60ce5214f6fd02c32d8",
+			"GridCoordinates": {
+				"Row": 2,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "23",
+			"ProductId": "5946bd60e5214f6fd02c32ae",
+			"GridCoordinates": {
+				"Row": 2,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "30",
+			"ProductId": "5947ae45e5214f6fd02c32c4",
+			"GridCoordinates": {
+				"Row": 3,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "31",
+			"ProductId": "5946bad2e5214f6fd02c32a5",
+			"GridCoordinates": {
+				"Row": 3,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "32",
+			"ProductId": "5946be0be5214f6fd02c32b0",
+			"GridCoordinates": {
+				"Row": 3,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "33",
+			"ProductId": "5947abafe5214f6fd02c32be",
+			"GridCoordinates": {
+				"Row": 3,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "40",
+			"ProductId": "5946bbeae5214f6fd02c32a9",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "41",
+			"ProductId": "5946b75ee5214f6fd02c3299",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "42",
+			"ProductId": "5947b69ae5214f6fd02c32da",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 3,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "43",
+			"ProductId": "5947b55fe5214f6fd02c32d6",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 4,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "44",
+			"ProductId": "5947b4bee5214f6fd02c32d4",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "45",
+			"ProductId": "5947b3f6e5214f6fd02c32d2",
+			"GridCoordinates": {
+				"Row": 4,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "50",
+			"ProductId": "5947aa9ce5214f6fd02c32bc",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "51",
+			"ProductId": "5947a9e9e5214f6fd02c32ba",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "52",
+			"ProductId": "5947884ee5214f6fd02c32b8",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 3,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "53",
+			"ProductId": "59478684e5214f6fd02c32b6",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 4,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "54",
+			"ProductId": "5947841fe5214f6fd02c32b4",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "55",
+			"ProductId": "5947c668e5214f6fd02c32de",
+			"GridCoordinates": {
+				"Row": 5,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "60",
+			"ProductId": "5946bc80e5214f6fd02c32ab",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "61",
+			"ProductId": "5946b85be5214f6fd02c329b",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "62",
+			"ProductId": "5946b4ebe5214f6fd02c3297",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 3,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "63",
+			"ProductId": "59478249e5214f6fd02c32b2",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 4,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "64",
+			"ProductId": "5947ad48e5214f6fd02c32c2",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "65",
+			"ProductId": "5946bb76e5214f6fd02c32a7",
+			"GridCoordinates": {
+				"Row": 6,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "70",
+			"ProductId": "5946ba0ce5214f6fd02c32a1",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 1,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "71",
+			"ProductId": "5946ba7de5214f6fd02c32a3",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 2,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "72",
+			"ProductId": "5947b0f6e5214f6fd02c32ca",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 3,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "73",
+			"ProductId": "5947ac22e5214f6fd02c32c0",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 4,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "74",
+			"ProductId": "5947b323e5214f6fd02c32d0",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 5,
+				"ColumnSpan": 1
+			}
+		},
+		{
+			"Key": "75",
+			"ProductId": "5947b60ce5214f6fd02c32d8",
+			"GridCoordinates": {
+				"Row": 7,
+				"RowSpan": 1,
+				"Column": 6,
+				"ColumnSpan": 1
+			}
+		}
+	],
+	"ProductSelectionHistory": [],
+	"MoneyInsertedHistory": [],
+	"ChangeGivenHistory": [],
+	"CreditBeforeTransaction": 0,
+	"CreditAfterTransaction": 0,
+	"SyncedAt": null,
+	"AgeVerificationStatus": null,
+	"ProductReservationHistory": [],
+	"PaymentMethod": "None",
+	"TransactionMetrics": {
+		"UtcOffsetInHours": 2,
+		"RevenueInfo": {
+			"Revenue": 0,
+			"RevenueFromChargedAndDeliveredProducts": 0,
+			"RevenueFromChargedButNotDeliveredProducts": 0
+		},
+		"ProductsCharged": 0,
+		"ProductsDelivered": 0,
+		"NotDeliveredProducts": 0,
+		"ProductsRemovedFromShoppingCart": 0,
+		"TransactionLengthInSeconds": 0.0,
+		"DeliveryLastedInSeconds": 0.0,
+		"PurchasedSingleProducts": [],
+		"PurchasedComboProducts": [],
+		"CreditInfo": {
+			"CreditBeforeTransaction": 0,
+			"CreditAfterTransaction": 0,
+			"CreditUsage": "None",
+			"UsedCreditAmount": 0
+		},
+		"InvoicingSystem": "CommonInvoicing",
+		"CurrencyInfo": {
+			"CurrencyId": null,
+			"Code": null,
+			"Symbol": null
+		},
+		"CalculatedAtTransactionEnd": false,
+		"Profit": 0,
+		"Sales": 0,
+		"ProductsSold": 0
+	},
+	"UserFeedback": null
+}
