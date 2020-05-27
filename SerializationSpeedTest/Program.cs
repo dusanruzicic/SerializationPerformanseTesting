@@ -19,45 +19,53 @@ namespace SerializationSpeedTest
 			Console.WriteLine("**** Round 1 ****");
 
 			//Test type serialization
-			var typeSer = new TypeSerialization();
-			MeasurePerformance(typeSer, json, "Type Serialization");
+			var typeSer = new TypeDeserialization();
+			MeasurePerformance(typeSer, json, "Type Deserialization RunTime:\t");
 
 			//Test dynamic serialization
-			var dynamicSer = new DynamicSerialization();
-			MeasurePerformance(dynamicSer, json, "Dynamic Serialization");
+			var dynamicSer = new DynamicDeserialization();
+			MeasurePerformance(dynamicSer, json, "Dynamic Deserialization RunTime:");
 
 			//Test bson serialization
-			var bsonSer = new BsonSerialization();
-			MeasurePerformance(bsonSer, json, "Bson Serialization");
+			var bsonSer = new BsonDeserialization();
+			MeasurePerformance(bsonSer, json, "Bson Deserialization RunTime:\t");
+
+			//Test JsonConverter serialization
+			var converterSer = new JsonConverterDesirialization();
+			MeasurePerformance(bsonSer, json, "JsonConverter Deserialization RunTime:");
 
 			Console.WriteLine("");
 			Console.WriteLine("**** Round 2 ****");
 
 			//Test type serialization
-			typeSer = new TypeSerialization();
-			MeasurePerformance(typeSer, json, "Type Serialization");
+			typeSer = new TypeDeserialization();
+			MeasurePerformance(typeSer, json, "Type Deserialization RunTime:\t");
 
 			//Test dynamic serialization
-			dynamicSer = new DynamicSerialization();
-			MeasurePerformance(dynamicSer, json, "Dynamic Serialization");
+			dynamicSer = new DynamicDeserialization();
+			MeasurePerformance(dynamicSer, json, "Dynamic Deserialization RunTime:");
 
 			//Test bson serialization
-			bsonSer = new BsonSerialization();
-			MeasurePerformance(bsonSer, json, "Bson Serialization");
-			
+			bsonSer = new BsonDeserialization();
+			MeasurePerformance(bsonSer, json, "Bson Deserialization RunTime:\t");
+
+			//Test JsonConverter serialization
+			converterSer = new JsonConverterDesirialization();
+			MeasurePerformance(bsonSer, json, "JsonConverter Deserialization RunTime:");
+
 			Console.WriteLine("");
 			Console.WriteLine("Press ENTER to exit...");
 			Console.ReadLine();
 		}
 
-		static void MeasurePerformance(ISerialization serializator, string json, string message)
+		static void MeasurePerformance(IDeserialization deserializator, string json, string message)
 		{
 			Stopwatch stopWatch = new Stopwatch();
 
 			stopWatch.Start();
 			for (int i = 0; i < _iterations; i++)
 			{
-				var transaction = serializator.Serialize(json);
+				var transaction = deserializator.Deserialize(json);
 			}
 			stopWatch.Stop();
 			DisplayTime(stopWatch, message);
@@ -72,7 +80,7 @@ namespace SerializationSpeedTest
 			string elapsedTime = String.Format("\t{0:00}:{1:00}:{2:00}.{3:00}",
 				ts.Hours, ts.Minutes, ts.Seconds,
 				ts.Milliseconds / 10);
-			Console.WriteLine($"{message} RunTime: {elapsedTime}");
+			Console.WriteLine($"{message} {elapsedTime}");
 		}
 	}
 }

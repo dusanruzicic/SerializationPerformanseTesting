@@ -11,11 +11,12 @@ using System.Text;
 
 namespace SerializationSpeedTest
 {
-	public class BsonSerialization : ISerialization
+	public class BsonDeserialization : IDeserialization
 	{
-		public Transaction Serialize(string json)
+		public Transaction Deserialize(string json)
 		{
 			BsonDocument messageObject = BsonSerializer.Deserialize<BsonDocument>(json);
+			//return BsonSerializer.Deserialize<Transaction>(messageObject); //Deserialize object without changes
 			var transaction = CopyObject(messageObject);
 
 			return transaction;

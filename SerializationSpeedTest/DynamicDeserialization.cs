@@ -9,12 +9,12 @@ using System.Text;
 
 namespace SerializationSpeedTest
 {
-	public class DynamicSerialization : ISerialization
+	public class DynamicDeserialization : IDeserialization
 	{
-		public Transaction Serialize(string json)
+		public Transaction Deserialize(string json)
 		{
 			dynamic messageObject = JsonConvert.DeserializeObject(json);
-			//return Convert.ChangeType(transaction, typeof(Transaction));
+			//return messageObject.ToObject<Transaction>(); //Deserialize object without changes
 			var transaction = CopyObject(messageObject);
 
 			return transaction;

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace SerializationSpeedTest
 {
-	public interface ISerialization
+	public interface IDeserialization
 	{
-		Transaction Serialize(string json);
+		Transaction Deserialize(string json);
 	}
 }

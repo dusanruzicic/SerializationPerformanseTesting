@@ -6,9 +6,9 @@ using System.Text;
 
 namespace SerializationSpeedTest
 {
-	public class TypeSerialization : ISerialization
+	public class TypeDeserialization : IDeserialization
 	{
-		public Transaction Serialize(string json)
+		public Transaction Deserialize(string json)
 		{
 			var messageObject = JsonConvert.DeserializeObject<Transaction>(json);
 			var transaction = CopyObject(messageObject);
